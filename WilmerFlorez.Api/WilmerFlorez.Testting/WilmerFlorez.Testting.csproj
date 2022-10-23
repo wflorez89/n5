@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MockQueryable.NSubstitute" Version="6.0.1" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="NSubstitute" Version="4.4.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WilmerFlorez.Commands.EventHandlers\WilmerFlorez.Commands.EventHandlers.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Common\WilmerFlorez.Common.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Domain.Configuration\WilmerFlorez.Domain.Configuration.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Entities\WilmerFlorez.Domain.Entities.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Queries.Interfaces\WilmerFlorez.Queries.Interfaces.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Queries\WilmerFlorez.Queries.Implementation.csproj" />
+  </ItemGroup>
+
+</Project>

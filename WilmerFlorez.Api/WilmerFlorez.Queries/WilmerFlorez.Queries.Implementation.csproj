@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WilmerFlorez.Queries.Dtos\WilmerFlorez.Queries.Dtos.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Queries.Interfaces\WilmerFlorez.Queries.Interfaces.csproj" />
+    <ProjectReference Include="..\WilmerFlorez.Utilities.Interfaces\WilmerFlorez.Utilities.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
