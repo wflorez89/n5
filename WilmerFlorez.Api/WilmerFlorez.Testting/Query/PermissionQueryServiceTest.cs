@@ -3,12 +3,12 @@ using MockQueryable.NSubstitute;
 using Moq;
 using WilmerFlorez.Domain.Configuration.Mappers;
 using WilmerFlorez.Domain.Configuration.Output;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 using WilmerFlorez.Queries.Implementation;
 using WilmerFlorez.Queries.Interfaces;
 using WilmerFlorez.Testting.Factory;
 using WilmerFlorez.Utilities.Interfaces.Kafka;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 
 namespace WilmerFlorez.Testting.Query
 {

@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WilmerFlorez.Entities
+namespace WilmerFlorez.Domain.Entities
 {
-    public abstract class Entity<TPrimaryKey> 
+    public abstract class Entity<TPrimaryKey>
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

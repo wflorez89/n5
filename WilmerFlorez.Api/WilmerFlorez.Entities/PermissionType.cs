@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WilmerFlorez.Entities
+namespace WilmerFlorez.Domain.Entities
 {
     public class PermissionType : Entity<Guid>
     {

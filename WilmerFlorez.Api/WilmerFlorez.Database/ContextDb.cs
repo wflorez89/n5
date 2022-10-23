@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 
 namespace WilmerFlorez.Database
 {

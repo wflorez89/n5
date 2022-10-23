@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace WilmerFlorez.Utilities.Interfaces.Repository
+namespace WilmerFlorez.Utilities.Interfaces.Repositories
 {
     public interface IRepository<TEntity> where TEntity : class
     {

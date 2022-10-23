@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WilmerFlorez.Entities
+namespace WilmerFlorez.Domain.Entities
 {
     [Table("Permissions")]
     public class Permission : Entity<Guid>

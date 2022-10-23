@@ -7,10 +7,10 @@ using WilmerFlorez.Common.Exceptions;
 using WilmerFlorez.Domain.Configuration.Commands.Permission;
 using WilmerFlorez.Domain.Configuration.Mappers;
 using WilmerFlorez.Domain.Configuration.Output;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 using WilmerFlorez.Testting.Factory;
 using WilmerFlorez.Utilities.Interfaces.Kafka;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 using WilmerFlorez.Utilities.Interfaces.UnitOfWorks;
 
 namespace WilmerFlorez.Testting.Command

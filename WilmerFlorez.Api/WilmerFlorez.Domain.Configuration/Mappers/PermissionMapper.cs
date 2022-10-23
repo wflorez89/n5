@@ -2,7 +2,7 @@
 using System;
 using WilmerFlorez.Domain.Configuration.Commands.Permission;
 using WilmerFlorez.Domain.Configuration.Output;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 
 namespace WilmerFlorez.Domain.Configuration.Mappers
 {

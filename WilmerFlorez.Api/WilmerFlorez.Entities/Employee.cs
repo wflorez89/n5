@@ -1,10 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WilmerFlorez.Entities
+namespace WilmerFlorez.Domain.Entities
 {
     [Table("Employees")]
-    public class Employee :  Entity<Guid>
+    public class Employee : Entity<Guid>
     {
         public string Name { get; set; }
     }

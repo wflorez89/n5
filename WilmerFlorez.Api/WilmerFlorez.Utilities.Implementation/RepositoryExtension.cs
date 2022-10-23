@@ -5,7 +5,7 @@ using WilmerFlorez.Utilities.Implementation.Kafka;
 using WilmerFlorez.Utilities.Implementation.Repositories;
 using WilmerFlorez.Utilities.Implementation.UnitOfWorks;
 using WilmerFlorez.Utilities.Interfaces.Kafka;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 using WilmerFlorez.Utilities.Interfaces.UnitOfWorks;
 
 namespace WilmerFlorez.Utilities.Implementation

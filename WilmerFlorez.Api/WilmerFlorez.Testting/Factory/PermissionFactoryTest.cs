@@ -1,4 +1,4 @@
-﻿using WilmerFlorez.Entities;
+﻿using WilmerFlorez.Domain.Entities;
 
 namespace WilmerFlorez.Testting.Factory
 {

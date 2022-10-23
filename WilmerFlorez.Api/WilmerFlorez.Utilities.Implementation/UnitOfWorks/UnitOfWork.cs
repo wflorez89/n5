@@ -7,7 +7,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 using WilmerFlorez.Utilities.Implementation.Repositories;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 using WilmerFlorez.Utilities.Interfaces.UnitOfWorks;
 
 namespace WilmerFlorez.Utilities.Implementation.UnitOfWorks

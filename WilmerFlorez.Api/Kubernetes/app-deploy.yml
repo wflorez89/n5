@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deploy
+  labels:
+    name: app-deploy
+    app: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: app
+      type: netapi
+  template:
+    metadata:
+      name: app-pod
+      labels:
+        name: app
+        type: netapi
+    spec:
+      containers:
+      - name: app-api
+        image: wflorez/wilmerflorezapi:latest
+        ports:
+          - containerPort: 5000
+        env:
+          - name: ConnectionStrings__SQLServerConnection
+            value: Data Source=mssql-service; Initial Catalog=n5DB; User Id=sa;password=VaxiDrez2005$
+      

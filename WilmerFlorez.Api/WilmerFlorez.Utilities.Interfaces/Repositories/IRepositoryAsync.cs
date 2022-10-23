@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WilmerFlorez.Utilities.Interfaces.Repository
+namespace WilmerFlorez.Utilities.Interfaces.Repositories
 {
     public interface IRepositoryAsync<TEntity> : IRepository<TEntity> where TEntity : class
     {

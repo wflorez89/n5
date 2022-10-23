@@ -7,9 +7,9 @@ using WilmerFlorez.Common.Exceptions;
 using WilmerFlorez.Common.Kafka;
 using WilmerFlorez.Domain.Configuration.Commands.Permission;
 using WilmerFlorez.Domain.Configuration.Output;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 using WilmerFlorez.Utilities.Interfaces.Kafka;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 
 namespace WilmerFlorez.Commands.EventHandlers.UpdatePermisssion
 {

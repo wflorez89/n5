@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 
 namespace WilmerFlorez.Utilities.Interfaces.UnitOfWorks
 {

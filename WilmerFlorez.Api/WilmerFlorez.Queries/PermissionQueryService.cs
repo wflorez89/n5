@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using WilmerFlorez.Common.Kafka;
 using WilmerFlorez.Domain.Configuration.Output;
-using WilmerFlorez.Entities;
+using WilmerFlorez.Domain.Entities;
 using WilmerFlorez.Queries.Interfaces;
 using WilmerFlorez.Utilities.Interfaces.Kafka;
-using WilmerFlorez.Utilities.Interfaces.Repository;
+using WilmerFlorez.Utilities.Interfaces.Repositories;
 
 namespace WilmerFlorez.Queries.Implementation
 {
